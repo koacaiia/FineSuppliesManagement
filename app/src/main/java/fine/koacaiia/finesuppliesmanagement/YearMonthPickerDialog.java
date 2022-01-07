@@ -59,7 +59,7 @@ public class YearMonthPickerDialog extends DialogFragment {
                 int intentMonth=monthPicker.getValue();
                 Intent intent=new Intent(getContext(),MainActivity.class);
 //                MainActivity mainActivity=new MainActivity();
-                Log.i("koacaiia","intentMessage itemName:"+itemName+"/month:"+intentMonth);
+                Log.i("koacaiia","intentMessage itemName:"+itemName+"/month1:"+intentMonth);
 //                mainActivity.getData(itemName,String.valueOf(intentMonth));
                 intent.putExtra("itemName",itemName);
                 intent.putExtra("month",String.valueOf(intentMonth));
